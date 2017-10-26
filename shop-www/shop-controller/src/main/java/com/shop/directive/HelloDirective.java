@@ -1,4 +1,4 @@
-package com.shop.controller;
+package com.shop.directive;
 
 import com.alibaba.fastjson.JSON;
 import freemarker.core.Environment;

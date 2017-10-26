@@ -1,5 +1,6 @@
 package com.shop.model;
 
+import com.shop.base.BaseModel;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,11 +11,7 @@ import java.util.Date;
  */
 @Getter
 @Setter
-public class Navigation {
-    private Integer id;
-    private Date createDate;
-    private Date modifyDate;
-    private Integer version;
+public class Navigation extends BaseModel{
     // 排序
     private Integer orders;
     // 是打开新窗体

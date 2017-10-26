@@ -23,13 +23,6 @@ public class IndexController {
     @RequestMapping("index")
     public String index(HttpServletRequest request, Model model){
         model.addAttribute("ctx",request.getContextPath());
-        List<Navigation> navigations = navigationService.findByPosition(0);
-        model.addAttribute("navigations",navigations);
-
-        RestTemplate restTemplate = new RestTemplate();
-        ResultInfo resultInfo = restTemplate.getForObject("http://localhost:8081/hot_search_keyword/get",ResultInfo.class);
-        List<String> hotkeywords = (List<String>) resultInfo.getResult();
-        model.addAttribute("hotkeywords",hotkeywords);
         return "index";
     }
 

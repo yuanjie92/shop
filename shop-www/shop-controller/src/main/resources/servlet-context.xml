@@ -50,19 +50,21 @@
 
             <map>
                 <entry key="hello_world" value-ref="helloDirective" />
+                <entry key="navigation_list" value-ref="navigationDirective" />
+                <entry key="hot_search_keywords" value-ref="hotSearchKeywordsDirective" />
+                <entry key="product_category_root_list" value-ref="productCategoryRootListDirective" />
+                <entry key="product_category_children_list" value-ref="productCategoryChildrenListDirective" />
+                <entry key="brand_list" value-ref="brandListDirective" />
+                <entry key="promotion_list" value-ref="promotionListDirective" />
+                <entry key="ad_position" value-ref="adPositionDirective" />
+                <entry key="article_category_root_list" value-ref="articleCategoryRootListDirective" />
+                <entry key="article_list" value-ref="articleListDirective" />
+                <entry key="ad_list" value-ref="adDirective" />
+                <entry key="goods_list" value-ref="goodsListDirective" />
             </map>
         </property>
-        <!--       <entry key="navigation_list" value-ref="navigationDirective" />
-               <entry key="hot_search_keywords" value-ref="hotSearchKeywordsDirective" />
-               <entry key="product_category_root_list" value-ref="productCategoryRootListDirective" />
-               <entry key="product_category_children_list" value-ref="productCategoryChildrenListDirective" />
-               <entry key="brand_list" value-ref="brandListDirective" />
-               <entry key="promotion_list" value-ref="promotionListDirective" />
-               <entry key="ad_position" value-ref="adPositionDirective" />
-               <entry key="ad_list" value-ref="adDirective" />
-               <entry key="article_category_root_list" value-ref="articleCategoryRootListDirective" />
-               <entry key="article_list" value-ref="articleListDirective" />
-               <entry key="goods_list" value-ref="goodsListDirective" />
+        <!--
+
                <entry key="friend_link_list" value-ref="friendLinkListDirective" />
                <entry key="product_category_parent_list" value-ref="productCategoryParentListDirective" />
                <entry key="attribute_list" value-ref="attributeDirective" />
